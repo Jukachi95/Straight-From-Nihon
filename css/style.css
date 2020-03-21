@@ -1,0 +1,460 @@
+@import url('https://fonts.googleapis.com/css?family=Archivo');
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans');
+
+*{
+  box-sizing: border-box;
+}
+
+body, html{
+  height: 100%;
+  margin: 0;
+  padding:0;
+  font-family: Archivo;
+}
+
+/* Main header with navigation for Home, About & Top Rated*/
+/* https://images.nintendolife.com/f1077e4f67f8a/animal-crossing-new-horizons.original.jpg */
+/* https://attackofthefanboy.com/wp-content/uploads/2018/08/Dragon-Quest-XI-Companions.jpg */
+/* Background image */
+.bgimg{
+  background: url('https://images.nintendolife.com/f1077e4f67f8a/animal-crossing-new-horizons.original.jpg ');
+  min-height: 450px;
+  background-size: cover;
+  background-position: center;
+  padding:0;
+  position: relative;
+  top: 0;
+}
+
+/* Container for UL holding text*/
+.bgtext{
+  position: absolute;
+  
+}
+
+.bgtext ul{
+/*   float: left; */
+  
+}
+
+.bgtext ul li{
+  list-style-type: none;
+  display: block;
+  float: left; 
+}
+
+.bgtext li a{
+  text-decoration: none;
+  color: #fff;
+  padding: 5px;
+}
+
+.bgtext li a:hover{
+  color: #000;
+ transition: all 0.8s;
+}
+
+.bginnertext{
+  padding:100px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  color: #000;
+}
+
+#newsletter{
+  padding: 15px;
+/*   height: 100px;
+  width: 100%; */
+  color: #fff;
+  background-color: #696969;
+  
+}
+
+#newsletter h1{
+/*   float: left; */
+}
+
+#newsletter form{
+float: right;
+margin-top: -45px;
+}
+
+#newsletter input[type="text"]{
+  padding; 4px;
+  height: 25px;
+  width: 250px;
+ 
+}
+
+#newsletter .button_1{
+  height: 30px;
+  background: #eee;
+  border: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+main{
+/*   max-width: 1300px; */
+  margin: auto;
+  
+}
+
+main img{
+/*   display: block; */
+  width: 400px;
+  height: auto;
+}
+/* Main Header Text */
+.main-header-text{
+  text-align: center;
+  font-size: 30px;
+/*   border-bottom: 3px solid #000;
+  width: 20%; */
+  letter-spacing: 0px;
+  
+}
+
+/* World Seeker  */
+
+/* Originally game articles */
+.game-articles{
+ display: grid;
+ grid-template-columns: repeat(auto-fill, minmax(600px, auto));
+  padding: 15px;
+ margin-left: 15px;
+/*   background-color: gray; */
+  grid-gap: 1em;
+  
+}
+
+/* .world-seeker{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.world-seeker-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+ width: 300px;
+} */
+
+.world-seeker-image{
+  width: 100%;
+}
+
+.world-seeker-text{
+  
+}
+
+.persona-5-image{
+  margin-top: 10px;
+  width: 100%;
+}
+
+.nier-image{
+  margin-top: 10px;
+  width:100%;
+}
+
+
+.luffy-image{
+  float: left;
+  display: block;
+}
+
+/* Footer */
+
+.nihon-footer{
+  text-align: center;
+  margin-top: 35px;
+  background-color: #696969;
+  color:#fff;
+  padding: 0.7rem 1rem;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.nihon-footer-text{
+  padding: 
+}
+
+
+/* Top Rated */
+
+
+
+.nihon-navbar{
+  background-color: #DCDCDC;
+  list-style-type: none;
+  margin:0;
+  padding:0;
+  overflow: hidden;
+  border-bottom: 8px solid yellow;
+}
+
+.nihon-navbar li{
+  float: left;
+}
+
+.nihon-navbar li a{
+  display: block;
+  color: white;
+  text-align: center;
+  color: black;
+  text-decoration: none;
+  padding: 1em 1em;
+}
+
+.top-rated-showcase{
+  background: url('https://images.unsplash.com/photo-1493514901090-977e25adc0ad?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=3f1e340a500a0c06521ca68a68284a69&auto=format&fit=crop&w=1500&q=80');
+  opacity: 0.9;
+  min-height: 500px;
+  margin-top: -3px;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+
+.venom-snake-image{
+  float: left;
+  shape-outside: circle();
+  border-radius: 180px;
+  width: 250px;
+  height: 150px;
+  margin-right: 6em;
+  margin-bottom: 2em;
+}
+
+.top{
+/*   max-width: 700px;
+  margin: auto; */
+  background: #DCDCDC;
+}
+
+.top img{
+/*  display: block;
+  width: 100%; */
+}
+
+.top-jrpg-header-text{
+  color: white;
+  margin-left: 100px;
+  background-color: black;
+  border-radius: 5px;
+  padding-left:1em;
+  padding-right: 1em;
+}
+
+
+#jrpg-inner-text{
+  
+ 
+}
+
+
+#jrpg-inner-text p {
+  background-color: #FFFAFA;
+  text-align: center;
+  display: inline;
+  margin-left: 100px;
+  padding-left: 2em;
+  padding-right: 2em;
+  border-radius: 5px;
+}
+
+
+#jrpg-inner-text p:hover{
+  background-color:#778899;
+}
+
+
+
+.top-jrpg{
+  max-width:1300px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)) ;
+  
+}
+
+.DQtop{
+/*   grid-column: 1/3;
+  width: 100%; */
+}
+
+
+.top-fighters{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+
+.top-fighting-text{
+  display: flex;
+  justify-content: center;
+  color: white;
+  background-color: black;
+  border-radius: 5px;
+  width: 50%;
+  align-items: center;
+  margin-left: 80px;
+
+  /* color: white;
+  margin-left: 100px;
+  background-color: black;
+  border-radius: 5px;
+  padding-left:1em;
+  padding-right: 1em; */
+}
+
+#fighters-inner-text p{
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  width: 50%;
+  margin-left: 90px;
+  
+}
+
+#fighters-inner-text p:hover{
+  color: black;
+  background-color: white;
+  cursor: pointer;
+  transition: 300ms ease-in-out 100ms;
+}
+
+
+
+
+
+.top-manga{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  max-width: 1300px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+
+.top-manga-header{
+  background-color: black;
+  color: white;
+}
+
+
+/* Media Queries */
+
+/* @media screen 
+  and (device-width: 320px) {
+  
+  .world-seeker-text{
+    display: flex;
+    width: 10vw;
+  }
+  
+  main{
+    display: grid;
+    grid-template-columns: 100%;
+  }
+  
+  
+  
+} */
+
+/* About Page */
+/* https://steamcdn-a.akamaihd.net/steam/apps/952060/header.jpg?t=1583732360 */
+/* http://i2.wp.com/shoryuken.com/wp-content/uploads/2018/09/dbfz-android-17-teaser-pic-2.jpg?fit=1200%2C675 */
+.Android-17-image{
+  background: url('https://static0.gamerantimages.com/wordpress/wp-content/uploads/2020/01/resident-evil-3-2.jpg');
+  min-height: 490px;
+  display: block;
+  max-width: 100%;
+  background-position: top;
+  background-size: cover;
+  color: white;
+  margin-top: -20px;
+  opacity: 0.7;
+  
+}
+
+.Android-17-text{
+  transform: translate(5%,150%)
+}
+
+.Android-btn{
+  border: 2px solid #fff;
+  border-radius: 7px;
+  padding: 5px 5px;
+  width: 140px;
+  overflow: hidden;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+
+.Android-btn:hover{
+  color: #000;
+  background-color: white;
+  cursor: pointer;
+}
+
+
+
+.Android-17-video{
+  max-width: 100%;
+  height: 0;
+  padding-bottom: 23.2%;
+  position: relative;
+  margin-left: 500px;
+}
+
+.Android-17-video iframe{
+  position: absolute;
+  width: 60%;
+   height: 100% ;
+  
+}
+
+.about-text{
+  font-family: Archivo;
+  margin: auto;
+/*   border: 3px solid black; */
+  max-width: 800px;
+}
+
+@media (max-width: 400px){
+  
+  .nihon-footer{
+   color: red;
+  }
+  
+}
+
+/* @media screen and (max-width: 400px) {
+  .game-articles img {
+    width: 50%;
+  }
+  
+  .world-seeker-text {
+    font-size: 3vw;
+  }
+  
+  
+  
+} */
