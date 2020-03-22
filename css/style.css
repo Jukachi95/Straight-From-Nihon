@@ -50,7 +50,7 @@ body, html{
 }
 
 .bgtext li a:hover{
-  color: #000;
+  color: rgb(131, 128, 128);
  transition: all 0.8s;
 }
 
@@ -214,17 +214,21 @@ main img{
   padding: 1em 1em;
 }
 
+/* Old: https://images.unsplash.com/photo-1493514901090-977e25adc0ad?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=3f1e340a500a0c06521ca68a68284a69&auto=format&fit=crop&w=1500&q=80 */
+/* https://66.media.tumblr.com/e8c003c461bb9b0bfd1e170a7ed3bcd1/bb620107a365bf5f-62/s640x960/3f0a8f07e744399a2fd593d59e18ed3d8fde18ae.jpg */
 .top-rated-showcase{
-  background: url('https://images.unsplash.com/photo-1493514901090-977e25adc0ad?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=3f1e340a500a0c06521ca68a68284a69&auto=format&fit=crop&w=1500&q=80');
+  background: url('https://static.tumblr.com/gpbjshz/j7nnx60yo/7.png');
   opacity: 0.9;
   min-height: 500px;
   margin-top: -3px;
   font-family: sans-serif;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: left;
   justify-content: center;
-  color: white;
+  color: #000;
+  background-repeat:no-repeat;
+  background-size: cover;
 }
 
 
@@ -389,7 +393,7 @@ main img{
   background-size: cover;
   color: white;
   margin-top: -20px;
-  opacity: 0.7;
+  opacity: 0.9;
   
 }
 
